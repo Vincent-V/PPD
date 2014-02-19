@@ -1,0 +1,6 @@
+Rendu pour le 12 mars
+
+Il faut maintenant répartir la charge.
+On a fini la mise en parallele classique en divisant par le nombre de processus.
+Il faut maintenant diviser en plus de parties (exemple 2 fois plus), puis distribuer les parties et dès qu'un processus a fini on lui redonne une nouvelle partie à calculer.
+Au final on pourra d'abord donner des grosses parties à calculer puis les rétrécir au fur et à mesure de la distribution.
